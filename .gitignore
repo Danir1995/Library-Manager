@@ -1,8 +1,39 @@
-# Compiled class file
-*.class
+# Default ignored files
+/shelf/
+workspace.xml
 
-# Log file
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+dataSources.local.xml
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven build directory
+target/
+
+# Maven Wrapper files
+mvnw
+mvnw.cmd
+
+# Log files
 *.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.settings/
+
+# Compiled class files
+*.class
 
 # BlueJ files
 *.ctxt
@@ -10,7 +41,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +50,6 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
